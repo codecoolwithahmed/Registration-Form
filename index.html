@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container1">
+            <h1>Registration Form</h1>
+            <input type="text" placeholder="Full Name" id="name" class="input">
+            <input type="text" placeholder="Father Name" id="fname" class="input">
+            <input type="email" placeholder="Email" id="email" class="input">
+            <input type="number" placeholder="Number" id="number" class="input">
+            <select name="course" id="courses" class="input">
+                <option value="Select" disabled selected>Select Course</option>
+                <option value="Web Designing">Web Designing</option>
+                <option value="Web Development">Web Development</option>
+                <option value="Graphic Designing">Graphic Designing</option>
+                <option value="Digital Marketing">Digital Marketing</option>
+            </select>
+            <select name="gender" id="gender" class="input">
+                <option value="Select" disabled selected>Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br>
+        </div>
+        <button id="submit">Submit</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
